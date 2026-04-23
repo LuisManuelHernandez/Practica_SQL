@@ -1,4 +1,4 @@
-🗄️ Proyecto SQL: Diseño y Modelado de Base de Datos (KeepCoding).
+## 🗄️ Proyecto SQL: Diseño y Modelado de Base de Datos (KeepCoding).
 
 Este repositorio contiene la solución técnica a la práctica del módulo de SQL y Modelado de Datos. El proyecto abarca desde el diseño lógico de una base de Datos relacional hasta la implementación de transformaciones complejas y la creación de una tabla de integración (Data Integration).
 
