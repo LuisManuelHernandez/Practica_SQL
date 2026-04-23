@@ -2,11 +2,13 @@
 
 Este repositorio contiene la solución técnica a la práctica del módulo de SQL y Modelado de Datos. El proyecto abarca desde el diseño lógico de una base de Datos relacional hasta la implementación de transformaciones complejas y la creación de una tabla de integración (Data Integration).
 
+
 🚀 Entorno Tecnológico.
 
 Para garantizar la escalabilidad y disponibilidad de la solución, se han utilizado las siguientes herramientas:
 - Base de Datos: PostgreSQL.
 - Infraestructura: Google Cloud Platform (GCP), donde se alojó la instancia de la base de datos para la ingesta, transformación y consulta de la data.
+
 
 📐 1. Modelo de Datos.
 - Archivo: DIAGRAMA ENTIDAD RELACION KEEPCODING.pdf
@@ -18,10 +20,12 @@ Entidades Principales:
 - Gestión de Alumnos: Estudiantes, Pagos, Registro de Aprobados.
 - Administración y Servicios: Personal administrativo, Historial de servicios, Departamentos y Funciones.
 
+
 💻 2. Implementación SQL.
 - Archivo: SCRIPTS PRACTICA.sql
 
 El script está organizado en fases lógicas que representan el flujo de trabajo de un Data Engineer:
+
 A. Definición de Estructura (DDL).
 Creación de tablas siguiendo el estándar de PostgreSQL, asegurando que cada relación (Genders, Countries, Cities, Bootcamps, etc.) cumpla con las restricciones de integridad definidas en el Modelo de datos.
 
@@ -33,6 +37,7 @@ El script culmina con la generación de una tabla resumen avanzada que consolida
 - Identificación: Vinculación de ivr_id con documentos de identidad (DNI, Pasaporte, etc.).
 - Lógica Temporal: Cálculo de duraciones y marcas de tiempo.
 - Flags de Negocio: Implementación de lógica para identificar llamadas repetidas en 24 horas (repeated_phone_24H) y rellamadas por causa del sistema (cause_recall_phone_24H).
+
 
 🛠️ Cómo utilizar este repositorio.
 - Modelado: Revisa el PDF para entender las jerarquías y conexiones entre tablas.
